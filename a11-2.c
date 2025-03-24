@@ -29,7 +29,12 @@ void quickSort(int arr[7], int st, int end){
 }
 
 void main(){
-    int arr[7] = {3,5,1,2,7,6,4};
+    // int arr[7] = {3,5,1,2,7,6,4};
+    int arr[7];
+    for (int i=0; i<7; i++){
+        printf("Enter element: ");
+        scanf("%d", &arr[i]);
+    }
     int size = sizeof(arr)/sizeof(arr[0]);
     int st=0, end=size-1;
 

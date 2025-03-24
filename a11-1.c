@@ -1,7 +1,14 @@
 #include <stdio.h>
 
 void main(){
+    // int arr[5] = {3,4,5,2,1};
     int arr[5] = {3,4,5,2,1};
+    
+    for (int i=0; i<5; i++){
+        printf("Enter element: ");
+        scanf("%d", &arr[i]);
+    }
+
     int n = sizeof(arr)/sizeof(arr[0]);
     int j, temp;
 
